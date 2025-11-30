@@ -8,6 +8,9 @@ ul{
 a{
     text-decoration: none;
 }
+.top-line{
+    background-color: #fff;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -15,7 +18,6 @@ a{
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
 }
 .logo-accent{
     font-family: "Raleway", sans-serif;
@@ -31,16 +33,12 @@ a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .nav li a:hover {
     color: #404bbf;
 }
 .nav li a:focus {
     color: #404bbf;
-}
-.nav li a:active {
-    color: #2e2f42;
 }
 .email{
     font-weight: 400;
@@ -69,3 +67,77 @@ a{
 .phone-number:focus{
     color: #404bbf;
 }
+.first-section{
+    background-color: #2e2f42;;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.order-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+}
+.order-button:hover{
+    background-color: #404bbf;
+}
+.studio-section{
+    background-color: #fff;
+}
+.studio-list li h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    background-color: #fff;
+}
+.studio-list li p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team-section{
+    background-color: #f4f4fd;
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-list li h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-list li p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.footer{
+    background-color: #2e2f42;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
