@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 ul{
     list-style-type: none;
@@ -15,33 +16,37 @@ a{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 .logo-accent{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;;
 }
-.nav li a{
+.nav-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42; 
 }
-.nav li a:hover {
+.nav-link:hover {
     color: #404bbf;
 }
-.nav li a:focus {
+.nav-link:focus {
     color: #404bbf;
 }
-.email{
+.address{
+    font-style: normal;
+}
+.contacts{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -49,25 +54,10 @@ a{
     color: #434455;
     font-style: normal
 }
-.email:hover{
+.contacts:hover{
     color: #404bbf;
 }
-.email:focus {
-    color: #404bbf;
-}
-.phone-number {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal
-}
-
-.phone-number:hover {
-    color: #404bbf;
-}
-.phone-number:focus{
+.contacts:focus {
     color: #404bbf;
 }
 .first-section{
@@ -76,7 +66,7 @@ a{
 .main-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -88,23 +78,21 @@ a{
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    cursor: pointer
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 .order-button:hover{
     background-color: #404bbf;
 }
-.studio-section{
-    background-color: #fff;
-}
-.studio-list li h3{
+.blocks-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #fff;
+
 }
-.studio-list li p{
+.body-par {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -115,34 +103,55 @@ a{
     background-color: #f4f4fd;
 }
 .team-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-.team-list li h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
     text-align: center;
 }
-.team-list li p{
+.team-par{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
+    text-align: center;
 }
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .footer{
     background-color: #2e2f42;
 }
-.footer p{
+.footer-par{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    }
+.logo-footer-accent{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
